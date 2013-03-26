@@ -54,7 +54,7 @@ class AboutArrays < EdgeCase::Koan
   def test_slicing_with_ranges
     array = [:peanut, :butter, :and, :jelly]
 
-    assert_equal __, array[0..2]
+    assert_equal :peanut, array[0..2]
     assert_equal __, array[0...2]
     assert_equal __, array[2..-1]
   end
